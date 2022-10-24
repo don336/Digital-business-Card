@@ -1,8 +1,15 @@
+import About from "./components/About";
+import Footer from "./components/Footer";
+import Profile from "./components/Profile";
+
+
 
 function App() {
   return (
-    <div className="App">
-        <h1>Digital Business Card</h1>
+    <div className="container">
+        <Profile />
+        <About/>
+        <Footer/>
     </div>
   );
 }
